@@ -1,0 +1,7 @@
+use noticias_autores;
+
+/*Creación de la colección noticias*/
+db.createCollection("noticias");
+
+/*Creación de la colección autores*/
+db.createCollection("autores");
